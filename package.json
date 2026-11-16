@@ -1,0 +1,25 @@
+{
+  "name": "table-stakes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Virtual chip & betting tracker for in-person Poker and Blackjack nights. Real cards, virtual chips, synced across phones.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "https": "node server.js --https",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "qrcode": "^1.5.4",
+    "selfsigned": "^2.4.1",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.8.4"
+  }
+}
